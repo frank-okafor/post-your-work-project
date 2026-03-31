@@ -1,27 +1,73 @@
->**Note**: Please **fork** this Udacity repository so you have a **remote** repository in **your** GitHub account. Then you can clone the remote repository to your local machine. Later, as a part of the project, you will push your changes to the remote repository in your GitHub account.
+# Bikeshare Data Analysis Project
 
+## Project Overview
+This project analyzes bikeshare data from major US cities including Chicago, New York City, and Washington. The goal is to explore data and compute descriptive statistics such as most common travel times, popular stations, trip durations, and user demographics.
 
-# Project Title
+The program is interactive and allows users to filter data by city, month, and day of the week.
 
-Describe what your project is about and what it does
+---
 
-## Information about how to use your project
+## How to Run the Project
 
-This could include:
+1. Make sure you have Python installed (Python 3 recommended)
+2. Clone the repository:
+   git clone https://github.com/frank-okafor/post-your-work-project.git
 
-- Step-by-step instructions for installing or setting up your project.
-- Any software dependencies that need to be installed.
-- Instructions and examples for how to use your project, including any helpful code snippets.
-- Common issues and troubleshooting tips
+3. Navigate into the project folder:
+   cd post-your-work-project
 
-## Contribution guidelines
+4. Run the program:
+   python bikeshare_starter.py
 
-If you welcome contributions, provide guidelines on how others can contribute to your project.
+---
+
+## Features
+
+- Filter data by:
+    - City (Chicago, New York City, Washington)
+    - Month
+    - Day of week
+- Displays statistics such as:
+    - Most common travel times
+    - Most popular stations and trips
+    - Trip duration statistics
+    - User statistics (gender, birth year where available)
+- Option to view raw data
+
+---
+
+## Dependencies
+
+- Python 3
+- pandas
+- numpy
+
+Install dependencies using:
+pip install pandas numpy
+
+---
+
+## File Structure
+
+- bikeshare_starter.py → main program file
+- CSV files → datasets for each city
+- README.md → project documentation
+
+---
+
+## Contribution
+
+This is a learning project, but contributions are welcome. Feel free to fork the repository and submit pull requests.
+
+---
 
 ## Credits
 
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+- Udacity Data Analyst Nanodegree Program
+- Bikeshare datasets provided by Motivate
 
-## Date created
+---
 
-Include the date you created this project and README file.
+## Date Created
+
+March 2026
