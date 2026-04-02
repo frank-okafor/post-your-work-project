@@ -176,6 +176,7 @@ def user_stats(df):
 
 
 def main():
+    """Main function to run the interactive bikeshare data exploration program."""
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
